@@ -57,3 +57,80 @@ Leaderboard
 
 
 
+TECH STACK
+Frontend
+Vanilla JS
+HTML
+CSS
+Backend
+Node.js
+Express
+Socket.IO
+Database
+MongoDB
+Cache
+Redis
+Queue
+BullMQ
+Charts
+Chart.js
+
+
+
+interview-platform/
+│
+├── client/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   ├── api/
+│   │   │   ├── authApi.js
+│   │   │   ├── questionApi.js
+│   │   │   └── analyticsApi.js
+│   │   │
+│   │   ├── components/
+│   │   │   ├── navbar.js
+│   │   │   ├── questionCard.js
+│   │   │   ├── leaderboard.js
+│   │   │   └── analyticsChart.js
+│   │   │
+│   │   ├── services/
+│   │   │   ├── socketService.js
+│   │   │   ├── storageService.js
+│   │   │   └── syncService.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── debounce.js
+│   │   │   ├── timer.js
+│   │   │   └── formatter.js
+│   │   │
+│   │   ├── state/
+│   │   │   └── store.js
+│   │   │
+│   │   └── app.js
+│   │
+│   ├── index.html
+│   └── sw.js
+│
+├── server/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── queues/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── sockets/
+│   │   ├── utils/
+│   │   └── server.js
+│   │
+│   ├── tests/
+│   └── Dockerfile
+│
+├── docker-compose.yml
+├── .github/workflows/
+└── README.md
+
+
