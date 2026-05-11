@@ -1,0 +1,13 @@
+body {
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.question-card {
+  border: 1px solid #ccc;
+
+  padding: 15px;
+
+  margin-top: 10px;
+}
