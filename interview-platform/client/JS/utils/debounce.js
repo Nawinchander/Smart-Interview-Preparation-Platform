@@ -13,3 +13,12 @@ export const debounce =
   };
 };
 
+
+searchInput.addEventListener(
+  'input',
+
+  debounce((e) => {
+    console.log(e.target.value);
+  }, 500)
+);
+
