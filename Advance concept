@@ -1,0 +1,15 @@
+| Concept        | Usage                |
+| -------------- | -------------------- |
+| Debouncing     | Search optimization  |
+| WebSockets     | Live contest timer   |
+| JWT            | Authentication       |
+| Redis          | Cache                |
+| BullMQ         | Reminder jobs        |
+| Charts         | Analytics            |
+| Docker         | Deployment           |
+| CI/CD          | Automation           |
+| IndexedDB      | Offline support      |
+| Virtual Scroll | Large question lists |
+
+
+

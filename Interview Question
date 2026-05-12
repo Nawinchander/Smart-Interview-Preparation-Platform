@@ -1,0 +1,37 @@
+Why Debouncing?
+
+Reduces unnecessary API calls while typing.
+
+Improves:
+
+performance
+backend load
+UX
+Why Redis?
+
+Questions are frequently read.
+
+Redis reduces:
+
+database load
+response time
+
+Why Queue System?
+
+Sending:
+
+reminders
+emails
+reports
+
+Should not block requests.
+
+Why WebSockets?
+
+Contest timer updates instantly.
+
+Polling would create:
+
+excessive requests
+higher latency
+
